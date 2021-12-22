@@ -1,0 +1,18 @@
+def fun():
+    num = int(input("Please input a integer in binary: "))
+    print(num, 'the binary is', bin(num))  # 1 use bin(num)
+    print(str(num)+' the binary is '+bin(num)) # 2 use + if it is string
+    print('%s the binary is %s' %(num, bin(num))) # 3 use format string %s
+    print('{0} the binary is {1}'.format(num, bin(num))) # 4 Use {}.format
+    print('-------------------------------------------------')
+    print(f'{num} the binary is {bin(num)}') # 5 Use f' {}
+    print(f'{num} the 8 binary is: {oct(num)}')
+    print(f'{num} the 16 binary is: {hex(num)}')
+    
+if __name__ == '__main__':
+    while True:
+        try:
+            fun()
+            break 
+        except:
+            print("Invalid, please enter integer!!!!")            

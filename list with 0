@@ -1,0 +1,13 @@
+year = [82,89,99, 83,79,00]
+print('Original list: ', year)
+
+for index, value in enumerate(year):
+    if str(value) != '0':
+        year[index] = int('19'+str(value))
+    else:
+        year[index] = int('200'+str(value))
+        
+print('Lastest list: ', year)
+year.sort()
+
+print('Sorted lists: ', year)

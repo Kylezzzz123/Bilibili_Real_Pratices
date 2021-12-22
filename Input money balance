@@ -1,0 +1,5 @@
+
+print('User phone balance: \033[0;35m$8\033[m')
+money = int(input('Please input how much you insert: '))
+money += 8
+print(f'Your current balance: \033[0;33m{money}\033[m' )

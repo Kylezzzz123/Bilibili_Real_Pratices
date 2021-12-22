@@ -1,0 +1,8 @@
+pwd = input('Alipay password: ')
+if pwd.isdigit():   # 1
+    print('Valid')
+else:
+    print('Invalid, your password only digits')
+    
+print('Valid' if pwd.isdigit() else 'Invalid, your password only digits')   # 2
+

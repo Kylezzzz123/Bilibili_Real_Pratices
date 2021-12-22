@@ -1,0 +1,9 @@
+#1a use print to input (input to a text file)
+fp = open('h:/text.txt', 'w')
+print('Science is better', file=fp)
+fp.close()
+
+#1b Use file to input
+with open('h:/test1.txt', 'w') as file:
+    file.write("Science is better")
+

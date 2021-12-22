@@ -1,0 +1,3 @@
+num = int(input('Please input your steps today: '))
+colories = num * 28
+print(f'Your colories has been spent was {colories} = {colories/1000} kc')

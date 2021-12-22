@@ -1,0 +1,8 @@
+qq  = input('Your QQ account: ')
+pwd = input('Your passsword: ')
+if qq == '296626472' and pwd == '123':
+    print('Success')
+else:
+    print('Sorry, your account or password is not correct!!!')
+    
+    
