@@ -1,0 +1,9 @@
+coffee_name = ('BlueMountain', "Caputiono", 'Latte', 'Permeum','Queen', 'Beautiful')
+print('Welcome to Little Cat cafe')
+print('Our store has: ')
+for index, item in enumerate(coffee_name):
+    print(index+1, '.', item, end='  ')
+index = int(input('\n Please choose your Coffee number: '))
+if 0 <= index <=len(coffee_name):
+    print(f'Your coffee [{coffee_name[index-1]}] is ready, please enjoy!') 
+    

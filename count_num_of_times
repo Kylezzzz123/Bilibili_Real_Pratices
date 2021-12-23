@@ -1,0 +1,14 @@
+# count how many times of letter in one sentence
+
+def get_count(s,ch):
+    count = 0
+    for item in s:
+        if ch.upper() == item or ch.lower() == item:
+            count+=1
+    return count
+
+if __name__ == '__main__':
+    s = input('please write a sentence: ')
+    ch = input('Please input a letter: ')
+    get_count(s,ch)
+    print(f'{ch} in {s} count {count}')
